@@ -37,7 +37,7 @@ Hardware – PCs, Cyclone II , USB flasher
 
 Developed by: Jenoviya D
 RegisterNumber:  25014196
-
+~~~
   i) 
     module exp2(a,b,c,d,f1); 
     input a,b,c,d; 
@@ -50,7 +50,7 @@ RegisterNumber:  25014196
     output f2; 
     assign f2=((~y & z)|( w & y )|(x & y)); 
     endmodule
-
+~~~
 
 **RTL realization**
 <img width="1041" height="568" alt="Screenshot 2025-12-16 213827" src="https://github.com/user-attachments/assets/30dbb6e7-9bb9-4bd7-82f3-dff4b57dd591" />
